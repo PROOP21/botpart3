@@ -1,0 +1,46 @@
+{
+  "bot-account": {
+    "username": "NaurotonlineBot",
+    "password": "",
+    "type": "mojang"
+  },
+
+  "server": {
+    "ip": "DevilCrusHeR.aternos.me",
+    "port": 42201,
+    "version": "1.18.2"
+  },
+  
+
+  "position": {
+    "enabled": false,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+
+  "utils": {
+    "auto-auth": {
+      "enabled": true,
+      "password": "12345678"
+    },
+
+    "anti-afk": {
+      "enabled": true,
+      "sneak": true,
+      "walk": true
+    },
+
+    "chat-messages": {
+      "enabled" : true,
+      "repeat": true,
+      "repeat-delay": 60,
+
+      "messages":[ "hi i am a bot my owner name  is naruto"]
+    },
+
+    "chat-log":true,
+    "auto-reconnect": true,
+    "auto-recconect-delay":5000
+  }
+}
